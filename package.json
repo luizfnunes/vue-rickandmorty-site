@@ -1,10 +1,12 @@
 {
   "name": "vue-rickandmorty-site",
+  "homepage": "http://luizfnunes.github.io/vue-rickandmorty-site/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "github" : "gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
