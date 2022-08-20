@@ -3,15 +3,12 @@ import { http } from '@/services/api.js';
 export default {
     random:() => {
         let ids = Array.from({length: 4}, () => Math.floor(Math.random() * 100));
-        return http.get('character/'+ids.join(','))
+        return http.get('episode/'+ids.join(','))
     },
     all:(page=1) => {
-        return http.get('character/?page='+page)
+        return http.get('episode/?page='+page)
     },
     get:(id) => {
-        return http.get('character/'+id)
+        return http.get('episode/'+id)
     },
-    getList:(ids) => {
-        return http.get('character/'+ids)
-    }
 }

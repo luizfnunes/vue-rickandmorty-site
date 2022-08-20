@@ -12,7 +12,7 @@ import Card from '@/components/Card.vue';
 import Lilcard from '@/components/Lilcard.vue';
 
 import Characters from '@/services/characters';
-import Locations from '@/services/localtions';
+import Locations from '@/services/locations';
 export default {
   name: 'HomeView',
   components: {

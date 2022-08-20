@@ -26,7 +26,7 @@
           >
         </li>
         <li class="nav-item">
-          <router-link class="nav-link link-dark px-2" to="/episodes"
+          <router-link class="nav-link link-dark px-2" to="/episodes/1"
             >Episódios</router-link
           >
         </li>

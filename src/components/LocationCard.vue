@@ -23,9 +23,9 @@
         </h5>
         <div class="card-body">
           <ul>
-            <li>Tipo: {{ card.type }}</li>
-            <li>Dimensão: {{ card.type }}</li>
-            <li>Personagens: {{ card.residents.length }}</li>
+            <li><strong>Tipo:</strong> {{ card.type }}</li>
+            <li><strong>Dimensão:</strong> {{ card.type }}</li>
+            <li><strong>Personagens:</strong> {{ card.residents.length }}</li>
           </ul>
         </div>
       </div>
@@ -56,5 +56,8 @@ export default {
 }
 .card-title a{
     text-decoration: none;
+}
+ul{
+  list-style: none;
 }
 </style>

@@ -39,10 +39,16 @@ const routes = [
     component: () => import(/* webpackChunkName: "locations" */ '../views/LocationsView.vue')
   },
   { 
-    path: '/episodes', 
+    path: '/episodes/:page(\\d+)', 
     name: 'episodes',
     component: () => import(/* webpackChunkName: "episodes" */ '../views/EpisodesView.vue')
   },
+  { 
+    path: '/episode/:id', 
+    name: 'episode',
+    component: () => import(/* webpackChunkName: "episode" */ '../views/EpisodeView.vue')
+  },
+  
 ]
 
 const router = createRouter({

@@ -7,5 +7,8 @@ export default {
     },
     all:(page=1) => {
         return http.get('location/?page='+page)
-    }
+    },
+    get:(id) => {
+        return http.get('location/'+id)
+    },
 }

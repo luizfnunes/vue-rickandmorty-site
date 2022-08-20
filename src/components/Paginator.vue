@@ -49,6 +49,7 @@ export default {
   methods: {
     setPagination() {
       let pages = [];
+      console.log('IN- '+this.page)
       pages.push(parseInt(this.page));
       if (this.page == 1) {
         pages.push(2);
@@ -77,7 +78,6 @@ export default {
     this.setPagination();
   },
   updated() {
-    console.log(this.pagePagination);
     this.setPagination();
   },
 };

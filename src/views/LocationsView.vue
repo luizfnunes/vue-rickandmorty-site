@@ -19,7 +19,7 @@
 import LocationCard from '@/components/LocationCard.vue';
 import Paginator from '@/components/Paginator.vue';
 
-import Locations from '@/services/localtions';
+import Locations from '@/services/locations';
 
 export default {
   components:{
