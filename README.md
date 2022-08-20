@@ -1,19 +1,8 @@
-# vue-rickandmorty-site
+# RickAndMorty Vue - Site
 
-## Project setup
-```
-npm install
-```
+## Descrição
+Site desenvolvido como um projeto de estudos na tecnologia Vuejs, utilizando a biblioteca Bootstrap para o visual e consumindo a API pública RickAndMortyApi.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Para ver o site funcionando acesse: [https://rickandmorty-vuejs.netlify.app/](https://rickandmorty-vuejs.netlify.app/)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![rickandmorty](https://user-images.githubusercontent.com/9018264/185762164-1b8015df-96c7-4b2e-871f-865af349cee1.png)
